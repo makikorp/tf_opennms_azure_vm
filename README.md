@@ -62,3 +62,5 @@ Please comment out the following section in the Ansible playbook:
         state: present
         update_cache: yes
         disable_gpg_check: yes
+
+The file "azure_hosts" is for the Ansible playbook to know the ip address of the azure vm to run the playbook against.
