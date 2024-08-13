@@ -69,3 +69,7 @@ Please comment out the following section in the Ansible playbook:
         disable_gpg_check: yes
 
 The file "azure_hosts" is for the Ansible playbook to know the ip address of the azure vm to run the playbook against.
+
+If Ansible does not connect, please run the ansible command directly on the command line:
+ansible-playbook -i /users/<user>/code/tf_opennms_azure_vm/azure_hosts --key-file /Users/<user>/.ssh/<user_key> playbooks/opennms.yml
+
