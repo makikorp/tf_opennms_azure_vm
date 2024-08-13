@@ -1,0 +1,8 @@
+[meridian]
+name=Meridian for Red Hat Enterprise Linux and CentOS
+baseurl=https://onms0001:1wantMeridian@meridian.opennms.com/packages/2022/stable/rhel9
+#baseurl=https://onms0001:1wantMeridian@meridian.opennms.com/packages/2021/stable/rhel9
+#baseurl=https://onms0001:1wantMeridian@meridian.opennms.com/packages/2021/stable/rhel$releasever
+#gpgcheck=1
+gpgcheck=0
+gpgkey=http://yum.opennms.org/OPENNMS-GPG-KEY
