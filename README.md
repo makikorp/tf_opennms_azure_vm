@@ -1,5 +1,10 @@
 
+
+
+
 This repo creates an instance of OpenNMS in azure running on Rocky 9 Linux using Terraform and Ansible
+
+An Azure account is required.
 
 Please note that there are 2 options in the Ansible playbook for OpenNMS.  Option 1) is deploying Horizon, Option 2) is deploying Meridian.
 
