@@ -32,16 +32,23 @@ resource "azurerm_linux_virtual_machine" "my_terraform_vm" {
   }
 
   source_image_reference {
-    publisher = "erockyenterprisesoftwarefoundationinc1653071250513"
-    offer     = "rockylinux-9"
-    sku       = "rockylinux-9"
-    version   = "9.0.0"
+    #publisher = "erockyenterprisesoftwarefoundationinc1653071250513"
+    publisher = "resf"
+    offer     = "rockylinux-x86_64"
+    #offer     = "rockylinux-9"
+    sku       = "9-lvm"
+    #sku       = "rockylinux-9"
+    version   = "latest"
+    #version   = "9.0.0"
   }
 
   plan {
-    name = "rockylinux-9"
-    product = "rockylinux-9"
-    publisher = "erockyenterprisesoftwarefoundationinc1653071250513"
+    #name = "rockylinux-9"
+    name = "9-lvm"
+    product = "rockylinux-x86_64"
+    #product = "rockylinux-9"
+    publisher = "resf"
+    #publisher = "erockyenterprisesoftwarefoundationinc1653071250513"
   }
 
   computer_name  = "rockyMeridian"
