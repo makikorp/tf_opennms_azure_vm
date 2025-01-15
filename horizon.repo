@@ -1,0 +1,7 @@
+[horizon]
+name=Horizon for Red Hat Enterprise Linux and CentOS
+#baseurl=https://vault.opennms.com/horizon/31.0.1/rpm
+baseurl=https://vault.opennms.com/horizon/30.0.1/rpm
+#gpgcheck=1
+gpgcheck=0
+gpgkey=http://yum.opennms.org/OPENNMS-GPG-KEY
